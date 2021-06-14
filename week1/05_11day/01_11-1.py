@@ -14,7 +14,7 @@ def click():
     textbox.delete(0.0, END)
 
     try:
-        def_word = dat.loc[dat['area']==word, 'def'].values[0]
+        def_word = dat.loc[dat['area'] == word, 'def'].values[0]
     except:
         def_word = "단어의 뜻을 찾을 수 없음"
 
