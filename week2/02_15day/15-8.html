@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function myFnc1() {
+            //단락 부분 내용 변경
+            document.getElementById("hi1").innerHTML = "내용변경1";
+            document.getElementById("hi1").style.backgroundColor = "yellow";
+
+        }
+        function myFnc2() {
+            document.getElementById("hi2").innerHTML = "내용변경2";
+            document.getElementById("hi2").style.backgroundColor = "red";
+
+        }
+    </script>
+</head>
+
+<body>
+    <p id="hi1">내용1</p>
+    <p id="hi2">내용2</p>
+    <button type="button" onclick="myFnc1()">클릭1</button>
+    <button type="button" onclick="myFnc2()">클릭2</button>
+
+</body>
+
+</html>

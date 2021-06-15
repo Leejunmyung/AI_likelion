@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function change() {
+            document.getElementById("hi").style.backgroundColor = "red"
+        }
+
+    </script>
+</head>
+
+<body>
+    <div onmouseover="this.style.backgroundColor='orange'">올라갈때 색깔</div>
+    <div onmousedown="this.style.backgroundColor='green'">내려갈때 색깔</div>
+    <button type="button" onclick="change()">눌러봐</button>
+    <div id="hi">클릭시 색깔</div>
+
+</body>
+
+</html>
